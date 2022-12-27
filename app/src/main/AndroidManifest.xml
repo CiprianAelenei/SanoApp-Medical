@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ase.sanoapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".bmicalculator.BmiActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".bmicalculator.BmiMainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".advice.ParseActivity"
+            android:exported="false" />
+
+        <activity android:name=".treatment.medicine.MedicineActivity"
+            android:exported="false"/>
+        <activity android:name=".treatment.addtreatment.AddMedicineActivity"
+            android:exported="false"/>
+        <activity android:name=".treatment.alarm.ReminderActivity"
+            android:exported="false"/>
+        <activity android:name=".treatment.report.MonthlyReportActivity"
+            android:exported="false"/>
+
+        <activity android:name="com.ase.sanoapp.controller.MyCalendarDoctorActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.TestActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.AppointementActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.FicheInfo"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.PatientInfoActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.FolderMedical"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.ChatActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.PatientRequestPage"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.DoctorHomeActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.EditProfileDoctorActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.ConfirmedAppointmensActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.PatientAppointementsActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.ProfilePatientActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.MyDoctorsAvtivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.ProfileDoctorActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.EditProfilePatientActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.DoctorAppointementActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.FicheActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.MyPatientsActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.SearchPatActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.FirstSigninActivity"
+            android:exported="false"/>
+        <activity android:name="com.ase.sanoapp.controller.HomeActivity"
+            android:exported="false"/>
+
+        <activity android:name="com.ase.sanoapp.controller.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+
+    <color name="color_light_grey">#4d4d4d</color>
+
+    <color name="color_bmi_font">#4d4d4d</color>
+    <color name="halfwarn">#483FC8</color>
+    <color name="warn">#FF1313</color>
+    <!-- Array of colors that will be used by ViewPager as background colors -->
+    <array name="colorPagesViewPager">
+        <item>#EDD9CF</item>
+        <item>#BED4D6</item>
+        <item>#ADCEB7</item>
+        <item>#F7CF8B</item>
+        <item>#FD96A2</item>
+    </array>
+
+    <drawable name="touchFeedback">#CFD8DC</drawable>
+
+</resources>

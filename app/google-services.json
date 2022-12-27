@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973262924549",
+    "firebase_url": "https://healthcare-3fc5a-default-rtdb.firebaseio.com",
+    "project_id": "healthcare-3fc5a",
+    "storage_bucket": "healthcare-3fc5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973262924549:android:144bd781bfde467d40a56c",
+        "android_client_info": {
+          "package_name": "com.ase.sanoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973262924549-7r4i0bg3nat7el35p2nufsk8vu7r2suk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCShTUoZPKJc3pqhIwBmXVM_X027Wkxxns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973262924549-7r4i0bg3nat7el35p2nufsk8vu7r2suk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

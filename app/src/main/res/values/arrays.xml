@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Pacient</item>
+        <item>Doctor</item>
+    </string-array>
+    <string-array name="planets_array2" >
+        <item>Consult</item>
+        <item>Spitalizare</item>
+    </string-array>
+
+    <array name="caregiver_options">
+        <item>Ajutor %s</item>
+        <item>Sterge Contactul</item>
+        <item>Cancel</item>
+    </array>
+
+    <array name="intervals_array">
+        <item>La fiecare 24 ore</item>
+        <item>La fiecare 12 ore</item>
+        <item>La fiecare ore</item>
+        <item>La fiecare ore</item>
+        <item>La fiecare ore</item>
+        <item>La fiecare ore</item>
+    </array>
+
+    <array name="medications_shape_array">
+        <item>pansament(e)</item>
+        <item>capsula(e)</item>
+        <item>crema(e)</item>
+        <item>drajeu(e)</item>
+        <item>emulsie(i)</item>
+        <item>pachet(e)</item>
+        <item>gel(uri)</item>
+        <item>drops(uri)</item>
+        <item>inhalare(ri)</item>
+        <item>shot(uri)</item>
+        <item>lotiune(i)</item>
+        <item>masurare(ri)</item>
+        <item>tableta(e)</item>
+        <item>pudra(e)</item>
+        <item>unguent(e)</item>
+        <item>supoizitor(e)</item>
+        <item>plic(uri)</item>
+        <item>bucata(i)</item>
+        <item>solutie(i)</item>
+        <item>spray(uri)</item>
+        <item>suspensie(i)</item>
+        <item>sirop(uri)</item>
+    </array>
+    <array name="pill_cycle_formats">
+        <item>21+7</item>
+        <item>22+6</item>
+        <item>23+5</item>
+        <item>24+4</item>
+        <item>26+2</item>
+        <item>28+0</item>
+        <item>35+7</item>
+        <item>42+7</item>
+        <item>63+7</item>
+        <item>84+7</item>
+        <item>14+14</item>
+    </array>
+    <array name="week_days_abbreviations">
+        <item>D</item>
+        <item>L</item>
+        <item>M</item>
+        <item>Mi</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+    </array>
+
+</resources>
